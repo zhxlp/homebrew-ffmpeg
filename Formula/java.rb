@@ -17,6 +17,18 @@ class Java < Formula
     end
   end
 
+  def caveats
+    on_macos do
+      s = <<~EOS
+        For the system Java wrappers to find this JDK, symlink it with
+          sudo ln -sfn #{opt_libexec}/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+      EOS
+      
+      s
+    end
+  end
+
+
   test do
     (testpath/"HelloWorld.java").write <<~EOS
       class HelloWorld {
