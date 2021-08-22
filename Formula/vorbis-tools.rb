@@ -1,7 +1,7 @@
 class VorbisTools < Formula
   desc "Ogg Vorbis CODEC tools"
   homepage "https://github.com/xiph/vorbis-tools"
-  url "https://downloads.xiph.org/releases/vorbis/vorbis-tools-1.4.0.tar.gz"
+  url "https://ftp.osuosl.org/pub/xiph/releases/vorbis/vorbis-tools-1.4.0.tar.gz"
   sha256 "a389395baa43f8e5a796c99daf62397e435a7e73531c9f44d9084055a05d22bc"
   revision 2
 

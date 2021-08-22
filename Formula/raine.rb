@@ -79,17 +79,17 @@ class Raine < Formula
   end
 
   resource "libogg" do
-    url "https://downloads.xiph.org/releases/ogg/libogg-1.3.2.tar.gz"
+    url "https://ftp.osuosl.org/pub/xiph/releases/ogg/libogg-1.3.2.tar.gz"
     sha256 "e19ee34711d7af328cb26287f4137e70630e7261b17cbe3cd41011d73a654692"
   end
 
   resource "libvorbis" do
-    url "https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.5.tar.xz"
+    url "https://ftp.osuosl.org/pub/xiph/releases/vorbis/libvorbis-1.3.5.tar.xz"
     sha256 "54f94a9527ff0a88477be0a71c0bab09a4c3febe0ed878b24824906cd4b0e1d1"
   end
 
   resource "flac" do
-    url "https://downloads.xiph.org/releases/flac/flac-1.3.2.tar.xz"
+    url "https://ftp.osuosl.org/pub/xiph/releases/flac/flac-1.3.2.tar.xz"
     mirror "https://downloads.sourceforge.net/project/flac/flac-src/flac-1.3.2.tar.xz"
     sha256 "91cfc3ed61dc40f47f050a109b08610667d73477af6ef36dcad31c31a4a8d53f"
   end
