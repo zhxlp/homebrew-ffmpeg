@@ -1,7 +1,7 @@
 class Cassandra < Formula
   desc "Eventually consistent, distributed key-value store"
   homepage "https://cassandra.apache.org"
-  url "https://www.apache.org/dyn/closer.cgi?path=cassandra/3.11.3/apache-cassandra-3.11.3-bin.tar.gz"
+  url "https://archive.apache.org/dist/cassandra/3.11.3/apache-cassandra-3.11.3-bin.tar.gz"
   sha256 "d82e0670cb41b091e88fff55250ce945c4ea026c87a5517d3cf7b6b351d5e2ba"
   revision 1
 

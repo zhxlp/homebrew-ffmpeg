@@ -1,7 +1,7 @@
 class SolrAT66 < Formula
   desc "Enterprise search platform from the Apache Lucene project"
   homepage "https://lucene.apache.org/solr/"
-  url "https://www.apache.org/dyn/closer.cgi?path=lucene/solr/6.6.5/solr-6.6.5.tgz"
+  url "https://archive.apache.org/dist/lucene/solr/6.6.5/solr-6.6.5.tgz"
   mirror "https://archive.apache.org/dist/lucene/solr/6.6.5/solr-6.6.5.tgz"
   sha256 "fa65e922bc32d36ef65bee866095da563aa5ddd7e953798c06b6494572d51729"
 

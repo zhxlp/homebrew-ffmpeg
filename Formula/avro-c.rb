@@ -1,7 +1,7 @@
 class AvroC < Formula
   desc "Data serialization system"
   homepage "https://avro.apache.org/"
-  url "https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/c/avro-c-1.8.2.tar.gz"
+  url "https://archive.apache.org/dist/avro/avro-1.8.2/c/avro-c-1.8.2.tar.gz"
   sha256 "4639982b2b8fbd91fc7128fef672207129c959bb7900dd64b077ce4206edf10e"
   revision 1
 

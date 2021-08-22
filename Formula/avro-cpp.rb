@@ -1,7 +1,7 @@
 class AvroCpp < Formula
   desc "Data serialization system"
   homepage "https://avro.apache.org/"
-  url "https://www.apache.org/dyn/closer.cgi?path=avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz"
+  url "https://archive.apache.org/dist/avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz"
   sha256 "5328b913882ee5339112fa0178756789f164c9c5162e1c83437a20ee162a3aab"
 
 

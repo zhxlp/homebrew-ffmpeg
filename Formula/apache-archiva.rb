@@ -1,7 +1,7 @@
 class ApacheArchiva < Formula
   desc "The Build Artifact Repository Manager"
   homepage "https://archiva.apache.org/"
-  url "https://www.apache.org/dyn/closer.cgi?path=archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz"
+  url "https://archive.apache.org/dist/archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.tar.gz"
   sha256 "cf90d097e7c2763f6ff8df458b64be0348b35847de8b238c3e1e28e006da8bad"
 
   bottle :unneeded
