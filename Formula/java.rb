@@ -8,7 +8,9 @@ class Java < Formula
    
   def install
     on_macos do
-      jdk = Dir["*"].first
+      system "mkdir", "jdk"
+      system "mv", "Contents", "jdk/"
+      jdk = Dir["./*"].first
       libexec.install jdk => "openjdk.jdk"
       bin.install_symlink Dir[libexec/"openjdk.jdk/Contents/Home/bin/*"]
       include.install_symlink Dir[libexec/"openjdk.jdk/Contents/Home/include/*.h"]
