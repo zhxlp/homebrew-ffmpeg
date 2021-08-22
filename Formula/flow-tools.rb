@@ -1,0 +1,23 @@
+class FlowTools < Formula
+  desc "Collect, send, process, and generate NetFlow data reports"
+  homepage "https://code.google.com/archive/p/flow-tools/"
+  url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/flow-tools/flow-tools-0.68.5.1.tar.bz2"
+  sha256 "80bbd3791b59198f0d20184761d96ba500386b0a71ea613c214a50aa017a1f67"
+
+
+
+  def install
+    system "./configure", "--disable-dependency-tracking",
+                          "--prefix=#{prefix}"
+    system "make", "install"
+  end
+
+  test do
+    # Generate test flow data with 1000 flows
+    data = shell_output("#{bin}/flow-gen")
+    # Test that the test flows work with some flow- programs
+    pipe_output("#{bin}/flow-cat", data, 0)
+    pipe_output("#{bin}/flow-print", data, 0)
+    pipe_output("#{bin}/flow-stat", data, 0)
+  end
+end
