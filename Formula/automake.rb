@@ -14,7 +14,7 @@ class Automake < Formula
   # Remove this when applying any future 1.16.2 update.
   patch do
     url "https://git.savannah.gnu.org/cgit/automake.git/patch/?id=a348d830659fffd2cfc42994524783b07e69b4b5"
-    sha256 "7a57ca2b91f7f3c0b168cf5ffbc8a1b2168f3886bcadcc15412281472dace3ce"
+    sha256 "c048ce853eef073a5dfce34fcf9af786e8525e384e01dbbf4e6066623985d4c7"
   end
 
   def install
