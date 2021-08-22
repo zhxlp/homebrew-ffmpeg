@@ -1,4 +1,4 @@
-class Openjdk < Formula
+class Java < Formula
   desc "Development kit for the Java programming language"
   homepage "https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/"
   version "1.8"
