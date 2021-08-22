@@ -18,7 +18,7 @@ class Sdl2 < Formula
   # https://hg.libsdl.org/SDL/rev/d274fa9731b1
   patch do
     url "https://github.com/libsdl-org/SDL/commit/5e1531944ce66135e15cf1663671d0bea6a44917.diff"
-    sha256 "9845d8f947dd5b809c1dedba711c878cf2a4644a570cd21a81b574e609eb986b"
+    sha256 "651ab7d83d907b6607d7b6177a5d571909c9cd8d1cde1028a149f75db1ab20d2"
   end
 
   def install
