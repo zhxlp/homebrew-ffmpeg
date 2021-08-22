@@ -17,7 +17,7 @@ class Sdl2 < Formula
   # Upstream commit to fix issue with library version numbers
   # https://hg.libsdl.org/SDL/rev/d274fa9731b1
   patch do
-    url "https://hg.libsdl.org/SDL/raw-diff/d274fa9731b1/build-scripts/ltmain.sh"
+    url "https://github.com/libsdl-org/SDL/commit/5e1531944ce66135e15cf1663671d0bea6a44917.diff"
     sha256 "9845d8f947dd5b809c1dedba711c878cf2a4644a570cd21a81b574e609eb986b"
   end
 
