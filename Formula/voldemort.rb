@@ -7,7 +7,7 @@ class Voldemort < Formula
 
 
   depends_on "gradle" => :build
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     system "./gradlew", "build", "-x", "test"

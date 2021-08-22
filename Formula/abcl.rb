@@ -9,7 +9,7 @@ class Abcl < Formula
 
 
   depends_on "ant"
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
   depends_on "rlwrap"
 
   def install

@@ -7,7 +7,7 @@ class Questdb < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     inreplace "questdb.sh", "1.7+", "1.8"

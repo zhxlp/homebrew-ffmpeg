@@ -7,7 +7,7 @@ class Ant < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   resource "ivy" do
     url "https://www.apache.org/dyn/closer.cgi?path=ant/ivy/2.4.0/apache-ivy-2.4.0-bin.tar.gz"

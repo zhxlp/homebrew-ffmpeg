@@ -11,7 +11,7 @@ class Lcm < Formula
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
   depends_on "glib"
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     mkdir "build" do

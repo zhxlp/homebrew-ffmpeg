@@ -7,7 +7,7 @@ class Voms < Formula
 
 
   depends_on "maven" => :build
-  depends_on :java
+  depends_on "java"
   depends_on "openssl"
 
   def install

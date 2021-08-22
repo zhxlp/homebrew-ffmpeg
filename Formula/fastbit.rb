@@ -6,7 +6,7 @@ class Fastbit < Formula
 
 
 
-  depends_on :java
+  depends_on "java"
 
   conflicts_with "iniparser", :because => "Both install `include/dictionary.h`"
 

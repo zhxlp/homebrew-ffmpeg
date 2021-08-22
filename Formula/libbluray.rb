@@ -15,7 +15,7 @@ class Libbluray < Formula
   end
 
   depends_on "ant" => :build
-  depends_on "java" => :build
+  depends_on "java" => ["1.8", :build]
   depends_on "pkg-config" => :build
   depends_on "fontconfig"
   depends_on "freetype"

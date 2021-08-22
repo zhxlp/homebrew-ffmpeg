@@ -8,7 +8,7 @@ class Wartremover < Formula
 
 
   depends_on "sbt" => :build
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     system "./sbt", "-sbt-jar", Formula["sbt"].opt_libexec/"bin/sbt-launch.jar",

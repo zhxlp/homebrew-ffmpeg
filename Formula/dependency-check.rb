@@ -6,7 +6,7 @@ class DependencyCheck < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     rm_f Dir["bin/*.bat"]

@@ -6,7 +6,7 @@ class Akka < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     # Remove Windows files

@@ -28,7 +28,7 @@ class Upscaledb < Formula
 
   depends_on "boost"
   depends_on "gnutls"
-  depends_on :java
+  depends_on "java"
   depends_on "openssl"
   depends_on "protobuf"
 

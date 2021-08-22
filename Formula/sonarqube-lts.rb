@@ -6,7 +6,7 @@ class SonarqubeLts < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   conflicts_with "sonarqube", :because => "both install the same binaries"
 

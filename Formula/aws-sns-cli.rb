@@ -8,7 +8,7 @@ class AwsSnsCli < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     env = Language::Java.java_home_env.merge(:AWS_SNS_HOME => libexec)

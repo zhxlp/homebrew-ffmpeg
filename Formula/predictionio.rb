@@ -11,7 +11,7 @@ class Predictionio < Formula
   depends_on "elasticsearch"
   depends_on "hadoop"
   depends_on "hbase"
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   def install
     rm_f Dir["bin/*.bat"]

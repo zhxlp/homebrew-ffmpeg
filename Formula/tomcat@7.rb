@@ -9,7 +9,7 @@ class TomcatAT7 < Formula
 
   keg_only :versioned_formula
 
-  depends_on :java
+  depends_on "java"
 
   # Keep log folders
   skip_clean "libexec"

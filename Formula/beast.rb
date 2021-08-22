@@ -9,7 +9,7 @@ class Beast < Formula
 
   depends_on "ant" => :build
   depends_on "beagle"
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   def install
     system "ant", "linux"

@@ -6,7 +6,7 @@ class Mallet < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   resource "testdata" do
     url "https://raw.githubusercontent.com/mimno/Mallet/master/sample-data/stackexchange/tsv/testing.tsv"

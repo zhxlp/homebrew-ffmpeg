@@ -9,7 +9,7 @@ class AntlrAT2 < Formula
 
   keg_only :versioned_formula
 
-  depends_on :java
+  depends_on "java"
 
   def install
     # C Sharp is explicitly disabled because the antlr configure script will

@@ -6,7 +6,7 @@ class Bazel < Formula
 
 
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
   depends_on :macos => :yosemite
 
   def install

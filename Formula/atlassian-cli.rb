@@ -6,7 +6,7 @@ class AtlassianCli < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def install
     Dir.glob("*.sh") do |f|

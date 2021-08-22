@@ -6,7 +6,7 @@ class Drip < Formula
 
 
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     system "make"

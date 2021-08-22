@@ -12,7 +12,7 @@ class Mahout < Formula
   bottle :unneeded
 
   depends_on "hadoop"
-  depends_on :java
+  depends_on "java"
 
   def install
     if build.head?

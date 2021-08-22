@@ -6,7 +6,7 @@ class Bagit < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def install
     # put logs in var, not in the Cellar

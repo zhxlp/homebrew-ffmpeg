@@ -7,7 +7,7 @@ class Groovy < Formula
   bottle :unneeded
 
   # Groovy 2.5 requires JDK8+ to build and JDK7 is the minimum version of the JRE that we support.
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   conflicts_with "groovysdk", :because => "both install the same binaries"
 

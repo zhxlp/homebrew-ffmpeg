@@ -6,7 +6,7 @@ class Giter8 < Formula
 
 
 
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   resource "conscript" do
     url "https://github.com/foundweekends/conscript.git",

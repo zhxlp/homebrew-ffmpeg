@@ -5,7 +5,7 @@ class Byteman < Formula
   sha256 "f65a9e169fdebade6dfb265ae284ecdcde82c744ae4c606f99d405325a75a5ba"
 
   bottle :unneeded
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   def install
     rm_rf Dir["bin/*.bat"]

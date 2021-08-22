@@ -8,7 +8,7 @@ class Nesc < Formula
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
-  depends_on :java => :build
+  depends_on "java" => :build
 
   def install
     # nesc is unable to build in parallel because multiple emacs instances

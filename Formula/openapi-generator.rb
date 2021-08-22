@@ -12,7 +12,7 @@ class OpenapiGenerator < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def install
     # Need to set JAVA_HOME manually since maven overrides 1.8 with 1.7+

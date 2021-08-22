@@ -8,7 +8,7 @@ class Lumo < Formula
 
 
   depends_on "boot-clj" => :build
-  depends_on :java => ["1.8", :build]
+  depends_on "java" => ["1.8", :build]
   depends_on "node" => :build
   depends_on "yarn" => :build
 

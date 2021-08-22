@@ -6,7 +6,7 @@ class ApacheForrest < Formula
 
 
 
-  depends_on :java
+  depends_on "java"
 
   resource "deps" do
     url "https://www.apache.org/dyn/closer.cgi?path=forrest/apache-forrest-0.9-dependencies.tar.gz"

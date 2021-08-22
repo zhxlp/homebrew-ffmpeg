@@ -6,7 +6,7 @@ class Hadoop < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   conflicts_with "yarn", :because => "both install `yarn` binaries"
 

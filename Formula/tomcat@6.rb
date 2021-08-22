@@ -9,7 +9,7 @@ class TomcatAT6 < Formula
 
   keg_only :versioned_formula
 
-  depends_on :java
+  depends_on "java"
 
   def install
     rm_rf Dir["bin/*.{cmd,bat]}"]

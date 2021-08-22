@@ -6,7 +6,7 @@ class Apollo < Formula
 
 
 
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   # https://www.oracle.com/technetwork/database/berkeleydb/overview/index-093405.html
   resource "bdb-je" do

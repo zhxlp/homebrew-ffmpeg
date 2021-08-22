@@ -7,7 +7,7 @@ class Bdsup2sub < Formula
 
 
   depends_on "maven" => :build
-  depends_on :java
+  depends_on "java"
 
   resource "macify" do
     url "https://www.java2s.com/Code/JarDownload/macify/macify-1.4.jar.zip"

@@ -8,7 +8,7 @@ class Shogun < Formula
 
 
   depends_on "cmake" => :build
-  depends_on :java => ["1.7+", :build]
+  depends_on "java" => ["1.7+", :build]
   depends_on "pkg-config" => :build
   depends_on "swig" => :build
   depends_on "arpack"

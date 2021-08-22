@@ -15,7 +15,7 @@ class Subversion < Formula
     depends_on "gettext" => :build
   end
 
-  depends_on :java => ["1.8+", :build]
+  depends_on "java" => ["1.8+", :build]
   depends_on "pkg-config" => :build
   depends_on "scons" => :build # For Serf
   depends_on "swig" => :build

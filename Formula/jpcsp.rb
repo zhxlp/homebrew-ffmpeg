@@ -9,7 +9,7 @@ class Jpcsp < Formula
 
   depends_on "ant" => :build
   depends_on "p7zip" => :build
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   def install
     system "ant", "-f", "build-auto.xml", "dist-macosx"

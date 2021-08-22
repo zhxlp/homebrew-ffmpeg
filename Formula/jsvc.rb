@@ -6,7 +6,7 @@ class Jsvc < Formula
 
 
 
-  depends_on :java
+  depends_on "java"
 
   def install
     ENV.append "CFLAGS", "-arch #{MacOS.preferred_arch}"

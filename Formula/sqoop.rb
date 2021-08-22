@@ -12,7 +12,7 @@ class Sqoop < Formula
   depends_on "hadoop"
   depends_on "hbase"
   depends_on "hive"
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
   depends_on "zookeeper"
 
   # Patch for readlink -f missing on macOS. Should be fixed in 1.4.7.

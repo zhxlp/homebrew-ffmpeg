@@ -7,7 +7,7 @@ class Htmlcleaner < Formula
 
 
   depends_on "maven" => :build
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def install
     cmd = Language::Java.java_home_cmd("1.8")

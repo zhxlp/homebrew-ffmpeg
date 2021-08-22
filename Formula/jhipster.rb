@@ -8,7 +8,7 @@ class Jhipster < Formula
 
 
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
   depends_on "node"
 
   def install

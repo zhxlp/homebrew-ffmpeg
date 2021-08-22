@@ -7,7 +7,7 @@ class JdnssecTools < Formula
 
 
 
-  depends_on :java
+  depends_on "java"
 
   def install
     inreplace Dir["bin/*"], /basedir=.*/, "basedir=#{libexec}"

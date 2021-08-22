@@ -8,7 +8,7 @@ class Henplus < Formula
 
 
   depends_on "ant" => :build
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
   depends_on "libreadline-java"
 
   def install

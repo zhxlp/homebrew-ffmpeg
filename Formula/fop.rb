@@ -6,7 +6,7 @@ class Fop < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   resource "hyph" do
     url "https://downloads.sourceforge.net/project/offo/offo-hyphenation-utf8/0.1/offo-hyphenation-fop-stable-utf8.zip"

@@ -6,7 +6,7 @@ class Artifactory < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def install
     # Remove Windows binaries

@@ -7,12 +7,12 @@ class Jadx < Formula
   head do
     url "https://github.com/skylot/jadx.git"
     depends_on "gradle" => :build
-    depends_on :java => "1.8+"
+    depends_on "java" => "1.8+"
   end
 
   bottle :unneeded
 
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   resource "sample.apk" do
     url "https://github.com/downloads/stephanenicolas/RoboDemo/robodemo-sample-1.0.1.apk"

@@ -6,7 +6,7 @@ class Solr < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   skip_clean "example/logs"
 

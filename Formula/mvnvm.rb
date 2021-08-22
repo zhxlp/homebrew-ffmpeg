@@ -7,7 +7,7 @@ class Mvnvm < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   conflicts_with "maven", :because => "also installs a 'mvn' executable"
 

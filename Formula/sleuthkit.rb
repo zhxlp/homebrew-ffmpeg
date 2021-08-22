@@ -8,7 +8,7 @@ class Sleuthkit < Formula
 
   depends_on "ant" => :build
   depends_on "afflib"
-  depends_on :java
+  depends_on "java"
   depends_on "libewf"
   depends_on "libpq"
   depends_on "sqlite"

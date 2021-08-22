@@ -6,7 +6,7 @@ class VaultCli < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     # Remove windows files

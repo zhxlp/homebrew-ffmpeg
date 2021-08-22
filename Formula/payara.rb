@@ -6,7 +6,7 @@ class Payara < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   conflicts_with "glassfish", :because => "both install the same scripts"
 

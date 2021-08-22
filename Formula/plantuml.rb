@@ -8,7 +8,7 @@ class Plantuml < Formula
   bottle :unneeded
 
   depends_on "graphviz"
-  depends_on :java
+  depends_on "java"
 
   def install
     jar = "plantuml.jar"

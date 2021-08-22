@@ -6,7 +6,7 @@ class Ditaa < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     libexec.install "ditaa-#{version}-standalone.jar"

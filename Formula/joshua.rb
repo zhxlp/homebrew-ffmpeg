@@ -11,7 +11,7 @@ class Joshua < Formula
   depends_on "boost" => :build
   depends_on "md5sha1sum" => :build
   depends_on "python@2" => :build
-  depends_on :java
+  depends_on "java"
 
   def install
     rm Dir["lib/*.{gr,tar.gz}"]

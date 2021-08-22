@@ -5,7 +5,7 @@ class Languagetool < Formula
   sha256 "8362ecd238d33866919516f69f440d12411a0ea509e0d54b1ff08aef3ebea5db"
 
   bottle :unneeded
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def server_script(server_jar); <<~EOS
     #!/bin/bash

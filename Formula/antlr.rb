@@ -6,7 +6,7 @@ class Antlr < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     prefix.install "antlr-#{version}-complete.jar"

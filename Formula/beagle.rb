@@ -9,7 +9,7 @@ class Beagle < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "doxygen" => :build
-  depends_on :java => [:build, :test]
+  depends_on "java" => [:build, :test]
   depends_on "libtool" => :build
 
   def install

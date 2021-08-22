@@ -7,7 +7,7 @@ class Pig < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.6+"
+  depends_on "java" => "1.6+"
 
   def install
     (libexec/"bin").install "bin/pig"

@@ -6,7 +6,7 @@ class ScmManager < Formula
 
 
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   resource "client" do
     url "https://maven.scm-manager.org/nexus/content/repositories/releases/sonia/scm/clients/scm-cli-client/1.59/scm-cli-client-1.59-jar-with-dependencies.jar"

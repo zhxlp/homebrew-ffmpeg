@@ -9,7 +9,7 @@ class MavenAT35 < Formula
 
   keg_only :versioned_formula
 
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   def install
     # Remove windows files

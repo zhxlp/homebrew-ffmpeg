@@ -5,7 +5,7 @@ class Skinny < Formula
   sha256 "e81578959b8edf715a407aaf17d339ff5223d9c3654f308cd5bcee553e95eef8"
 
   bottle :unneeded
-  depends_on :java => "1.8+"
+  depends_on "java" => "1.8+"
 
   def install
     libexec.install Dir["*"]

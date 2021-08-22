@@ -12,7 +12,7 @@ class Elasticsearch < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"

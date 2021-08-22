@@ -7,7 +7,7 @@ class Libtensorflow < Formula
 
 
   depends_on "bazel" => :build
-  depends_on :java => ["1.8", :build]
+  depends_on "java" => ["1.8", :build]
 
   def install
     cmd = Language::Java.java_home_cmd("1.8")

@@ -7,7 +7,7 @@ class ConfluentOss < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on "java" => "1.8"
 
   conflicts_with "kafka", :because => "kafka also ships with identically named Kafka related executables"
 

@@ -6,7 +6,7 @@ class BootClj < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on "java"
 
   def install
     bin.install "boot.sh" => "boot"

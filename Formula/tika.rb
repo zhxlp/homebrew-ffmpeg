@@ -6,7 +6,7 @@ class Tika < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.7+"
+  depends_on "java" => "1.7+"
 
   resource "server" do
     url "https://www.apache.org/dyn/closer.cgi?path=tika/tika-server-1.20.jar"
