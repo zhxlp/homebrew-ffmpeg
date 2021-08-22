@@ -1,7 +1,7 @@
 class BoostMpi < Formula
   desc "C++ library for C++/MPI interoperability"
   homepage "https://www.boost.org/"
-  url "https://boostorg.jfrog.io/native/main/release/1.68.0/source/boost_1_68_0.tar.bz2"
+  url "https://downloads.sourceforge.net/boost/boost/1.68.0/boost_1_68_0.tar.bz2"
   sha256 "7f6130bc3cf65f56a618888ce9d5ea704fa10b462be126ad053e80e553d6d8b7"
   head "https://github.com/boostorg/boost.git"
 
