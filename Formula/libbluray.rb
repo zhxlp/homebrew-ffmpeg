@@ -22,8 +22,9 @@ class Libbluray < Formula
 
   def install
     # Need to set JAVA_HOME manually since ant overrides 1.8 with 1.8+
-    cmd = Language::Java.java_home_cmd("1.8")
-    ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    # cmd = Language::Java.java_home_cmd("1.8")
+    # ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    ENV["JAVA_HOME"] = "/usr/local/Cellar/java/1.8/libexec/openjdk.jdk/Contents/Home/"
 
     # https://mailman.videolan.org/pipermail/libbluray-devel/2014-April/001401.html
     ENV.append_to_cflags "-D_DARWIN_C_SOURCE"

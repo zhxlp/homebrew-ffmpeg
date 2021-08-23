@@ -16,8 +16,10 @@ class OpenapiGenerator < Formula
 
   def install
     # Need to set JAVA_HOME manually since maven overrides 1.8 with 1.7+
-    cmd = Language::Java.java_home_cmd("1.8")
-    ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    # cmd = Language::Java.java_home_cmd("1.8")
+    # ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    ENV["JAVA_HOME"] = "/usr/local/Cellar/java/1.8/libexec/openjdk.jdk/Contents/Home/"
+
     if build.head?
       system "mvn", "clean", "package", "-Dmaven.javadoc.skip=true"
       libexec.install "modules/openapi-generator-cli/target/openapi-generator-cli.jar"

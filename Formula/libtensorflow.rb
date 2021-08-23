@@ -10,8 +10,9 @@ class Libtensorflow < Formula
   depends_on "java" => ["1.8", :build]
 
   def install
-    cmd = Language::Java.java_home_cmd("1.8")
-    ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    # cmd = Language::Java.java_home_cmd("1.8")
+    # ENV["JAVA_HOME"] = Utils.popen_read(cmd).chomp
+    ENV["JAVA_HOME"] = "/usr/local/Cellar/java/1.8/libexec/openjdk.jdk/Contents/Home/"
 
     ENV["PYTHON_BIN_PATH"] = which("python").to_s
     ENV["CC_OPT_FLAGS"] = "-march=native"
