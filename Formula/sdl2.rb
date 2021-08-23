@@ -27,7 +27,7 @@ class Sdl2 < Formula
     # keg-only but I doubt that will be needed.
     inreplace %w[sdl2.pc.in sdl2-config.in], "@prefix@", HOMEBREW_PREFIX
 
-    system "./autogen.sh" if build.head? || build.devel?
+    system "./autogen.sh" if build.head?
 
     args = %W[--prefix=#{prefix} --without-x]
     system "./configure", *args
