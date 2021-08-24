@@ -18,7 +18,7 @@ class Gnutls < Formula
     args = %W[
       --disable-dependency-tracking
       --disable-silent-rules
-      --disable-static
+      --enable-static
       --prefix=#{prefix}
       --sysconfdir=#{etc}
       --with-default-trust-store-file=#{etc}/openssl/cert.pem
