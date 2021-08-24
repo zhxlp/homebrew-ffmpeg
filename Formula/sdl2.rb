@@ -14,6 +14,8 @@ class Sdl2 < Formula
     depends_on "libtool" => :build
   end
 
+  depends_on "libiconv"
+
   # Upstream commit to fix issue with library version numbers
   # https://hg.libsdl.org/SDL/rev/d274fa9731b1
   patch do

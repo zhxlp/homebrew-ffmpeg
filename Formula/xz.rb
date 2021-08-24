@@ -7,7 +7,7 @@ class Xz < Formula
   mirror "https://tukaani.org/xz/xz-5.2.4.tar.gz"
   sha256 "b512f3b726d3b37b6dc4c8570e137b9311e7552e8ccbab4d39d47ce5f4177145"
 
-
+  depends_on "zlib"
 
   def install
     system "./configure", "--disable-debug",

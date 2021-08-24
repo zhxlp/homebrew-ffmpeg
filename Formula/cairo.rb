@@ -19,6 +19,7 @@ class Cairo < Formula
   depends_on "glib"
   depends_on "libpng"
   depends_on "pixman"
+  depends_on "zlib"
 
   def install
     if build.head?

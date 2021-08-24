@@ -8,6 +8,7 @@ class Freetype < Formula
 
 
   depends_on "libpng"
+  depends_on "bzip2"
 
   def install
     system "./configure", "--prefix=#{prefix}",

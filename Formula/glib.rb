@@ -14,6 +14,8 @@ class Glib < Formula
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
   depends_on "m4" => :build
+  depends_on "libiconv"
+  depends_on "zlib"
   depends_on "gettext"
   depends_on "libffi"
   depends_on "pcre"

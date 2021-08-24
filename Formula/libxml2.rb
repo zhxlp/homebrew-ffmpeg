@@ -20,6 +20,8 @@ class Libxml2 < Formula
   keg_only :provided_by_macos
 
   depends_on "python"
+  depends_on "libiconv"
+  depends_on "zlib"
 
   # Fix crash when using Python 3 using Fedora's patch.
   # Reported upstream:

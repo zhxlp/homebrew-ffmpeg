@@ -20,6 +20,7 @@ class Rubberband < Formula
     lib.install "lib/librubberband.dylib" => "librubberband.2.1.1.dylib"
     lib.install_symlink lib/"librubberband.2.1.1.dylib" => "librubberband.2.dylib"
     lib.install_symlink lib/"librubberband.2.1.1.dylib" => "librubberband.dylib"
+    lib.install "lib/librubberband.a"
     include.install "rubberband"
 
     cp "rubberband.pc.in", "rubberband.pc"

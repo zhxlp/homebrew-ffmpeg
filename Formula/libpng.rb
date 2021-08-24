@@ -14,6 +14,8 @@ class Libpng < Formula
     depends_on "automake" => :build
     depends_on "libtool" => :build
   end
+  
+  depends_on "zlib"
 
   def install
     system "./configure", "--disable-dependency-tracking",

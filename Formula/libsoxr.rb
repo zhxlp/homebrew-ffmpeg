@@ -9,7 +9,7 @@ class Libsoxr < Formula
   depends_on "cmake" => :build
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", *std_cmake_args, "-DBUILD_SHARED_LIBS=OFF"
     system "make", "install"
   end
 end

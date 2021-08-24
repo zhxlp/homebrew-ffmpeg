@@ -8,6 +8,7 @@ class Leptonica < Formula
 
 
   depends_on "pkg-config" => :build
+  depends_on "zlib"
   depends_on "giflib"
   depends_on "jpeg"
   depends_on "libpng"

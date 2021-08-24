@@ -10,6 +10,10 @@ class Ffmpeg < Formula
   depends_on "pkg-config" => :build
   depends_on "texi2html" => :build
 
+  depends_on "libiconv"
+  depends_on "zlib"
+  depends_on "bzip2"
+
   depends_on "aom"
   depends_on "fontconfig"
   depends_on "freetype"
