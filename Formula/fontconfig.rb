@@ -23,6 +23,7 @@ class Fontconfig < Formula
 
   depends_on "pkg-config" => :build
   depends_on "freetype"
+  depends_on "expat"
 
   def install
     font_dirs = %w[

@@ -12,7 +12,6 @@ class Gnutls < Formula
   depends_on "libtasn1"
   depends_on "libunistring"
   depends_on "nettle"
-  depends_on "p11-kit"
 
   def install
     args = %W[
@@ -24,7 +23,7 @@ class Gnutls < Formula
       --with-default-trust-store-file=#{etc}/openssl/cert.pem
       --disable-guile
       --disable-heartbeat-support
-      --with-p11-kit
+      --without-p11-kit
     ]
 
     system "./configure", *args

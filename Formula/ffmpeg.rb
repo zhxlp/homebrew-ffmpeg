@@ -44,6 +44,7 @@ class Ffmpeg < Formula
     args = %W[
       --prefix=#{prefix}
       --enable-shared
+      --enable-static
       --enable-pthreads
       --enable-version3
       --enable-hardcoded-tables
