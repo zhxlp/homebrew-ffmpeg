@@ -15,7 +15,8 @@ class Graphite2 < Formula
   end
 
   def install
-    system "cmake", *std_cmake_args
+    system "sed", "-i", "''", "144,1d", "src/CMakeLists.txt"
+    system "cmake", *std_cmake_args, "-DBUILD_SHARED_LIBS=OFF"
     system "make", "install"
   end
 
