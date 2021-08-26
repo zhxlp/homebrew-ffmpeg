@@ -19,6 +19,7 @@ class Libbluray < Formula
   depends_on "pkg-config" => :build
   depends_on "fontconfig"
   depends_on "freetype"
+  depends_on "libxml2"
 
   def install
     # Need to set JAVA_HOME manually since ant overrides 1.8 with 1.8+

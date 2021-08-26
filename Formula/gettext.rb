@@ -10,6 +10,8 @@ class Gettext < Formula
   keg_only :shadowed_by_macos,
     "macOS provides the BSD gettext library & some software gets confused if both are in the library path"
 
+  depends_on "libiconv"
+  
   def install
     system "./configure", "--disable-dependency-tracking",
                           "--disable-silent-rules",
